@@ -1,0 +1,31 @@
+{
+  "name": "infusionSoftLink",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "response_code": {
+      "type": "string"
+    },
+    "access_Token": {
+      "type": "string",
+      "required": true
+    },
+    "refresh_Token": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "connectorIFS": {
+      "type": "belongsTo",
+      "model": "userCompany",
+      "foreignKey": "companyId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

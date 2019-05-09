@@ -1,0 +1,56 @@
+{
+  "name": "DataLinkBI",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "form-serialize": "^0.7.2",
+    "formik": "^1.5.1",
+    "history": "^4.7.2",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-check-auth": "^0.2.0-alpha.2",
+    "react-dom": "^16.8.3",
+    "react-number-format": "^4.0.6",
+    "react-redux": "^6.0.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "reactstrap": "^7.1.0",
+    "reactstrap-typeahead": "^1.0.1",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.26.10",
+    "@emotion/core": "10.0.9",
+    "@emotion/styled": "10.0.9",
+    "emotion": "10.0.9",
+    "emotion-theming": "10.0.9",
+    "react-particles-js": "2.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "create-react-component-folder": "^0.1.26"
+  },
+  "crcf": [
+    "scss"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "userCompany",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tier": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "connectWiseLinks": {
+      "type": "hasOne",
+      "model": "connectWiseLink",
+      "foreignKey": "companyId"
+    },
+    "infusionSoftLinks": {
+      "type": "hasOne",
+      "model": "infusionSoftLink",
+      "foreignKey": "companyId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

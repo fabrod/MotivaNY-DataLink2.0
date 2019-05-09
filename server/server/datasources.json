@@ -1,0 +1,44 @@
+{
+  "db": {
+    "host": "db",
+    "port": 27017,
+    "url": "",
+    "database": "links",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "connector": "mongodb",
+    "useNewUrlParser": "true",
+  },
+  "memory": {
+    "name": "memory",
+    "connector": "memory"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./data/",
+    "maxFileSize": "52428800",
+    "nameConflict": "makeUnique"
+  },
+  "email": {
+    "name": "email",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "USER",
+          "pass": "PASS"
+        }
+      }
+    ]
+  }
+}

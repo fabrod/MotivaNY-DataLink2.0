@@ -1,0 +1,56 @@
+{
+  "name": "datalink-srv",
+  "version": "0.1.0",
+  "description": "DataLinkSrv",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "Microservice",
+    "Backend",
+    "loopback-application",
+    "loopback"
+  ],
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint",
+    "test": "mocha || true"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "infusionsoft-sdk": "0.0.3",
+    "ioredis": "^4.9.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.2.0",
+    "loopback-component-passport": "^3.10.0",
+    "loopback-component-storage": "^3.5.0",
+    "loopback-connector-mongodb": "^3.9.2",
+    "nodemailer-mandrill-transport": "^1.2.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19",
+    "node-resque": "^5.5.3",
+    "node-schedule": "^1.3.2",
+    "request": "^2.88.0",
+    "sharp": "^0.21.3",
+    "unique-filename": "^1.1.1",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "mocha": "^6.1.1"
+  },
+  "license": "UNLICENSED"
+}
