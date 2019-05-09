@@ -3,6 +3,8 @@
 
 This project is a demonstration of how particlejs can be adopted to any react project.
 
+IT Dash board going live May 15th coming from V1 to V2/1000 Plus users with a potention of 200,000 waiting on V2.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
